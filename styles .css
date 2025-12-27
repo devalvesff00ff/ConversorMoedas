@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    width: 1,798px;
+    height:   1,104px;
+    outline: none;
+}
+
+body {
+    /* Corrigido para um código de cor hex de 6 dígitos válido */
+    background-image: url(./assets/img/4.png);
+    background-size: cover;
+    background-position: center;
+    /* ... outras propriedades ... */
+}
+
+.logo {
+
+    width: 180px;
+
+    display: block;
+    margin: 20px auto
+}
+
+.Real {
+    display: block;
+    margin: 8px auto;
+    width: 65px;
+    height: 65px;
+}
+
+.currency-img {
+    display: block;
+    margin: 8px auto;
+    width: 65px;
+    height: 65px;
+}
+
+.arrow-img {
+    display: block;
+    margin: 20px auto;
+    width: 60px;
+}
+
+main {
+    width: 500px;
+    height: 850px;
+    background-color: #ebe8e8;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    width: 375;
+
+
+
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    color: #777777;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+select,input {
+
+    background: #FFFFFF;
+    border: #777777 1px solid;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+padding-left: 18px;
+font-weight: 700;
+font-size: 25px;
+color:#555555;
+ font-family: 'roboto', sans-serif;
+   
+}
+
+option {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    font-weight: 400;
+    padding: 14px;
+}
+
+button {
+    width: 100%;
+    height: 48px;
+    background: #13b90b;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 30px;
+    line-height: 19px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+   opacity:0.8 ;
+}
+button :active {
+    opacity:0.6 ;
+}
+
+section {
+    border: 6px solid #99ed72;
+    border-radius:30px;
+    text-align: center;
+    margin-top: 10px;
+    padding:6px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300 px;
+    background: #c9f5bd;
+    
+}
+.currency {
+    font-size: 25px;
+    font-weight: 700;
+    color: #555555;
+    margin-top: 5px;
+}
+.currency-value ,.currency-value-to-convert {
+    font-size: 25px;
+    font-weight: 700;
+    color: #555555;
+    margin-top: 5px;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
