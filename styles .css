@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto', sans-serif;
-    width: 1,798px;
-    height:   1,104px;
+    width: 1, 798px;
+    height: 1, 104px;
     outline: none;
 }
 
@@ -32,11 +32,13 @@ body {
 }
 
 .currency-img {
-    display: block;
-    margin: 8px auto;
-    width: 65px;
-    height: 65px;
+        display: block;
+        margin: 8px auto;
+        width: 65px;
+        height: 65px;
 }
+
+
 
 .arrow-img {
     display: block;
@@ -66,7 +68,8 @@ label {
     font-weight: 400;
 }
 
-select,input {
+select,
+input {
 
     background: #FFFFFF;
     border: #777777 1px solid;
@@ -74,12 +77,12 @@ select,input {
     height: 48px;
     width: 100%;
     margin-bottom: 24px;
-padding-left: 18px;
-font-weight: 700;
-font-size: 25px;
-color:#555555;
- font-family: 'roboto', sans-serif;
-   
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #555555;
+    font-family: 'roboto', sans-serif;
+
 }
 
 option {
@@ -102,33 +105,38 @@ button {
     border: none;
     cursor: pointer;
 }
+
 button:hover {
-   opacity:0.8 ;
+    opacity: 0.8;
 }
+
 button :active {
-    opacity:0.6 ;
+    opacity: 0.6;
 }
 
 section {
     border: 6px solid #99ed72;
-    border-radius:30px;
+    border-radius: 30px;
     text-align: center;
     margin-top: 10px;
-    padding:6px ;
+    padding: 6px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 300 px;
     background: #c9f5bd;
-    
+
 }
+
 .currency {
     font-size: 25px;
     font-weight: 700;
     color: #555555;
     margin-top: 5px;
 }
-.currency-value ,.currency-value-to-convert {
+
+.currency-value,
+.currency-value-to-convert {
     font-size: 25px;
     font-weight: 700;
     color: #555555;
