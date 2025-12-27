@@ -15,9 +15,6 @@ const currencySelect = document.querySelector(".currency-select");
    
     
 
-   
-
-
    if (currencySelect.value == "dolar") {
       //se o valor do select for dolar, faça a conversão para dolar
       currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
@@ -58,6 +55,7 @@ function changeCurrency() {
    const currencyName = document.getElementById("currency-name")
    const currencyImage = document.querySelector(".currency-img")
 
+   
    if (currencySelect.value == "dolar") {
       currencyName.innerHTML = "Dólar Americano"
       currencyImage.src = "./assets/img/dolar.png"
